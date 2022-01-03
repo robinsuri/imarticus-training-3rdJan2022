@@ -1,0 +1,30 @@
+Quesion 1 :
+<p Click on this <br>
+<a href = "https://google.com"> <img src="nike.jpg"></a>
+</p>
+
+
+Block or inline
+1. <p>  : block
+2. <img> : inline
+3. <a> : inline
+4. <br> : inline
+--------------------
+Question :
+what types of elements can be inside a block element?
+(i) online inline elements
+(ii) only block tags
+(iii) both inline and block tags <-- This is the correct answer
+
+Question: What types of elements can be inside an inline element?
+(i) online inline elements <--- This is the correct answer
+(ii) only block tags
+(iii) both inline and block tags
+
+
+
+
+
+
+
+

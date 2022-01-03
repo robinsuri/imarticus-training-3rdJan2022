@@ -9,3 +9,56 @@ closing tag - </>
 
 good coding practice:
 To always use lowercase letters for the tag names
+
+
+
+--------
+HTML containers
+
+A container is any part of a web document that has an opening and closing tag.
+
+
+Block elements
+Any html element can be categorized as 
+(i) block - fills the width of the elements parent containers and can contain
+other block elements, inline elements, and text
+
+(ii) inline - It fills the minimum space possible in the elements parent container and can only
+contain text or other inline elements
+
+
+--------------------
+HTTP
+GET and POST 
+
+are used to submit the data to the server.
+http://www.xyz.com/server
+
+skype messenge - login page.
+username
+password 
+
+
+And if they match then you are logged in.
+
+user1
+passwd1
+
+GET request
+https://www.skype.com/validateuser?user=user1&passwd=passwd1
+The data is passed in the URL
+
+https://www.skype.com/validateuser
+
+HTTP request <--- various parts  
+(i) URL
+(ii) Body 
+(iii)...
+--------------------------------------------
+
+
+
+
+
+
+
