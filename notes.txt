@@ -6,3 +6,6 @@ HTML 5
 An HTML tag is identified by a < and a >. 
 opening tag - <>
 closing tag - </>
+
+good coding practice:
+To always use lowercase letters for the tag names
