@@ -21,14 +21,22 @@ It doesn't require closing tag
        exercise\cat.jfif  : relative URL
        C:\path-1\file-name.jpg  : Absolute url
    -->
-    <img src="../cat.jfif" width="500" height="500" alt="cat" />
+    <!-- <img src="../cat.jfif" width="100" alt="cat" /> -->
 
+    <!--
+      target = 
+      _self -> This is the default value
+      _blank -> This will open the link in a new tab/window
+    -->
+    <a target="_blank" href="https://www.petsites.com/"
+      ><img src="../cat.jfif" width="100" alt="cat"
+    /></a>
     <!--
         Anchor tag : <a>    
             Absolute URL and relative url
             Absolute URL : Its a complete URL
 
-    -->
+    --><br />
     <a href="https://Wikipedia.org">Wikipedia</a>
   </body>
 </html>
