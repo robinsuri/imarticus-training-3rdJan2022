@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>title</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <!--
+ sports scedule
+ Time         Mon  | Wed    | Fri
+9:00       warmup
+10:00    drills| skills | basket 
+11:00    movie | weight | 
+  -->
+  <body>
+    <table>
+        <caption> Team Schedule</caption>
+      <tr>
+        <th>Time</th>
+        <th>Mon</th>
+        <th>Wed</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+      <tr>
+        <th>9:00</td>
+        <td colspan="3">warmup</td>
+        <td rowspan="3">games</td>
+      </tr>
+      <tr>
+        <th>10:00</td>
+        <td>drills</td>
+        <td>skills</td>
+        <td rowspan="2">basket</td>
+      </tr>
+      <tr>
+        <th>11:00</td>
+        <td>Movie</td>
+        <td>Weight</td>
+      </tr>
+      <tr>
+        <th>12:00</td>
+        <td colspan="2"></td>
+        <td colspan="2">Lunch</td>
+      </tr>
+    </table>
+  </body>
+</html>
