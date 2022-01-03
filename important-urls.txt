@@ -1,0 +1,4 @@
+https://validator.w3.org/nu/#textarea
+https://code.visualstudio.com/
+https://developer.mozilla.org/en-US/
+https://developer.mozilla.org/en-US/docs/Web/HTML
