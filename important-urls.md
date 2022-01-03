@@ -1,11 +1,13 @@
-https://validator.w3.org/nu/#textarea
+<ul>
+  <li>https://validator.w3.org/nu/#textarea</li>
 
-https://code.visualstudio.com/
+  <li>https://code.visualstudio.com/</li>
 
-https://developer.mozilla.org/en-US/
+<li>https://developer.mozilla.org/en-US/</li>
 
-https://developer.mozilla.org/en-US/docs/Web/HTML<br><br>
+<li>https://developer.mozilla.org/en-US/docs/Web/HTML</li>
 
-
+<li>
 <p> <em>Contain Books on HTML, CSS and Javascript: </em></p>
-https://github.com/robinsuri/corporate-training/tree/master/imarticus-capegemini-web-basics-17th-Nov-2021/useful-material
+https://github.com/robinsuri/corporate-training/tree/master/imarticus-capegemini-web-basics-17th-Nov-2021/useful-material</li>
+  </ul>
