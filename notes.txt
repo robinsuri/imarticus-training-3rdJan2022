@@ -3,3 +3,6 @@ HTML - Hypertext Markup language
 HTML around 130 elements. 
 HTML 5
 
+An HTML tag is identified by a < and a >. 
+opening tag - <>
+closing tag - </>
