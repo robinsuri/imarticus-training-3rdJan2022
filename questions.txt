@@ -47,6 +47,36 @@ Ans: http://example.org?item=apple&price=2.5
 </ul>
 
 (i) What CSS selector matches all the <li> elements?
+li {
+}
+
+(ii) What CSS selector matches the last <li> element in the ordered list?
+#third {}
+
+(iii) Which CSS selector matches the numbers class attribute?
+.numbers {}
+
+(iv) What CSS selector matches only the <span> elements in the unordered list?
+ul span {}
+
+------------
+I want to change the font-weight property to bold.
+For all hyperlinks inside a table. <a> tag  
+
+table a {font-weight: bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

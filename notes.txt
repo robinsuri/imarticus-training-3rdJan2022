@@ -78,5 +78,9 @@ CSS rules consists of a selector followed by a declaration block between braces 
 CSS selector : specifies the HTML element to which a specific style rule applies
 
 
-
+Color Property
+color CSS property changes the text color to a specified color value.
+* white, blue,
+* rgb(0,0,0) is black, rgb(0,0,255) is blue
+* hexadecimal color #000000 is black, #0000FF is blue
 
