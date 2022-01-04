@@ -57,6 +57,19 @@ HTTP request <--- various parts
 --------------------------------------------
 
 
+mark
+richard
+
+
+fname=mark&lname=richard
+
+http://example.com/submit
+
+Takes the first name and last name of a person and when the user clicks on submit button
+the data is transferred to the server http://example.com/submit
+
+http://example.com/submit?fname=mark&lname=richard
+
 
 
 

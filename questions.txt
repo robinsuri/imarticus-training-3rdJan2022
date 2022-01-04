@@ -21,6 +21,20 @@ Question: What types of elements can be inside an inline element?
 (ii) only block tags
 (iii) both inline and block tags
 
+---------------------
+Question:
+<form method="GET" action="http://example.org/">
+  <input type="text" name="item">
+  <input type="text" name="price">
+  <input type="submit">
+</form>
+What will be the query string if the user submits "apple" and "2.5" in the text boxes
+
+Ans: item=apple&price=2.5
+what URL the browser will request if the user submits it?
+Ans: http://example.org?item=apple&price=2.5
+---------------
+
 
 
 
