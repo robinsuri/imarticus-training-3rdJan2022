@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+  The browser uses specificity, a scoring system
+  that resolves CSS conflicts, to determine 
+  which style declarations to apply to an elements
+-->
+<html>
+  <head>
+    <title>title</title>
+    <style>
+      body {
+        color: blue;
+      }
+      p {
+        color: yellow !important;
+      }
+    </style>
+    <!-- Using !important override other declarations
+    and disregard specificity-->
+    <!-- <link href="external-stylesheet.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <div style="color: red">
+      <p style="color: green">
+        This is a green paragraph style with inline css
+      </p>
+      <p>This takes red from the parent div tag</p>
+      <span> This is a span element</span>
+    </div>
+  </body>
+</html>
