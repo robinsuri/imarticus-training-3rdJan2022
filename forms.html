@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+  </head>
+  <body>
+    <h1>GET Request</h1>
+    <form action="https://reqres.in/api/users">
+      <label for="first">User ID: </label>
+      <input type="text" name="id" id="first" />
+      <input type="submit" />
+    </form>
+    <br /><br />
+    <h1>POST Request</h1>
+
+    <form method="POST" action="https://reqres.in/api/users">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" /><br /><br />
+      <label for="job">Job: </label>
+      <input type="text" name="job" id="job" />
+      <input type="submit" />
+    </form>
+    <br /><br />
+    <h1>Send image to the server using a form</h1>
+    <form
+      method="POST"
+      action="https://example.com/apply"
+      enctype="multipart/form-data"
+    >
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" /><br /><br />
+      <label for="job">Job: </label>
+      <input type="text" name="job" id="job" /><br /><br />
+      <label for="pic"> Upload picture:</label>
+      <input type="file" name="pic" id="pic" /><br /><br />
+      <input type="submit" />
+    </form>
+
+    <br /><br />
+    <h1>TextArea</h1>
+    <textarea name="summary" rows="4" cols="50">To summarize...</textarea>
+
+    <br /><br />
+    <form action="http://example.com/survey">
+      <div>
+        <label for="item1"> Item 1:</label>
+        <input type="checkbox" name="item1" id="item1" />
+      </div>
+      <div>
+        <label for="item2"> Item 2:</label>
+        <input type="checkbox" name="item2" id="item2" />
+      </div>
+      <div>
+        <label for="item3"> Item 3:</label>
+        <input type="checkbox" name="item3" id="item3" checked />
+      </div>
+      <input type="submit" />
+    </form>
+    <h1>Form with Radio Buttons</h1>
+    <form action="http://example.com/survey">
+      <div>
+        <label for="item1"> Item 1:</label>
+        <input type="radio" value="1" name="item1" id="item1" />
+      </div>
+      <div>
+        <label for="item2"> Item 2:</label>
+        <input type="radio" value="2" name="item1" id="item2" />
+      </div>
+      <div>
+        <label for="item3"> Item 3:</label>
+        <input type="radio" value="3" name="item1" id="item3" />
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
+<!--
+    <form> tag 
+        Attributes of form tag
+        (i) action : URL
+        (ii) method : which HTTP request type the browser will 
+            use to communicate with the server.
+            GET, POST,...
+
+
+            POST: It sends the information in HTTP request body
+       Escaping form data: certain characters must be transformed into other 
+       representations. Because they have a special meaning in the URL.
+       Space -> +
+       All other reserved characters, newline, tab, -> %XX
+       where XX is the ASCII hex value of the character
+
+       widgets 
+       checkbox, radio , textarea,....
+        -->
