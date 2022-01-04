@@ -12,10 +12,15 @@
             (ii) 
         -->
     <form method="GET" action="https://example.com/apply">
-      <label for="first">First Name:</label>
-      <input type="text" name="first" id="first" /><br /><br />
+      <label for="first1">First Name:</label>
+      <input type="text" name="firstName" id="first1" /><br /><br />
       <label for="last">Last Name:</label>
-      <input type="text" name="last" id="last" /><br /><br />
+      <input
+        type="text"
+        placeholder="your name"
+        name="last"
+        id="last"
+      /><br /><br />
       <input type="submit" />
     </form>
     <!-- 
@@ -48,5 +53,41 @@
       <input type="file" name="pic" id="pic" /><br /><br />
       <input type="submit" />
     </form>
+
+    <!--
+      Escaping form data
+      &, ? and = characters they have a special meaning.
+      special characters are escaped=> they are transfromed 
+      into other representations.
+      * Space -> +
+      * Everything else is transformed to %XX
+      where XX is the ASCII hex value of the character
+      
+    -->
+
+    <!-- Form Widgets
+    widget is a graphical interactive component
+
+    -->
+    <p>Text Area</p>
+    <textarea name="summary" rows="4" cols="50"> To summarize...</textarea>
+
+    <form action="http://example.com/survey">
+      <div>
+        <label for="item1"> Item 1:</label>
+        <input type="checkbox" name="item1" id="item1" />
+      </div>
+      <div>
+        <label for="item2"> Item 2:</label>
+        <input type="checkbox" name="item2" id="item2" />
+      </div>
+      <div>
+        <label for="item3"> Item 3:</label>
+        <input type="checkbox" name="item3" id="item3" checked />
+      </div>
+      <input type="submit" />
+    </form>
+    <!-- checked is a boolean attribute that is true when present and false
+    when absent-->
   </body>
 </html>
