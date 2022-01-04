@@ -70,7 +70,12 @@ the data is transferred to the server http://example.com/submit
 
 http://example.com/submit?fname=mark&lname=richard
 
+--------------------------------
+Introduction to CSS
+Cascading stylesheets is a textual language for describing how a web page is styled for visual presentation.
 
+CSS rules consists of a selector followed by a declaration block between braces {};
+CSS selector : specifies the HTML element to which a specific style rule applies
 
 
 
