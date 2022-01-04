@@ -21,9 +21,17 @@
 
      -->
     <style>
-      div {
-        color: red;
-        background-color: aqua;
+      .p1 {
+        color: yellow;
+      }
+      #pid1 {
+        color: green;
+      }
+      div p {
+        color: magenta;
+      }
+      p:hover {
+        background-color: mediumaquamarine;
       }
     </style>
   </head>
@@ -33,5 +41,23 @@
       This is a green paragraph
     </p>
     <div>This is a div</div>
+
+    <p class="p1">This is a class paragraph</p>
+    <p>This is a normal paragraph</p>
+    <h1 class="p1">This is a heading</h1>
+    <p id="pid1">This is a paragraph with id</p>
+
+    <div>
+      This is a heading
+      <p>This is a paragraph inside a heading</p>
+      <p>This is level h2 down</p>
+      This is h2 heading This is h3 heading
+      <p>This is a 3 level down paragraph</p>
+      <table>
+        <p>This is inside table</p>
+      </table>
+
+      <p>This is at the same level as h1</p>
+    </div>
   </body>
 </html>

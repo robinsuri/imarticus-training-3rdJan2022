@@ -35,6 +35,19 @@ what URL the browser will request if the user submits it?
 Ans: http://example.org?item=apple&price=2.5
 ---------------
 
+<ol class="numbers">
+  <li id="first">First number</li>
+  <li id="second">Second number</li>
+  <li id="third">Third <span class="important">number</span></li>
+</ol>
+<ul>
+  <li>A <span class="bullet">bullet</span></li>
+  <li>Another <span class="bullet"></span></li>
+  <li>Another <span class="important">important item</span></li>
+</ul>
+
+(i) What CSS selector matches all the <li> elements?
+
 
 
 
