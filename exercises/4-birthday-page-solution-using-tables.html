@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Happy Birthday Message Creator</title>
+  <body>
+    <h1>Happy Birthday Message Creator</h1>
+    <form method="POST" action="https://example.com">
+      <table>
+        <tr>
+          <td>
+            <label for="birthdayMessage">Message?</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="birthdayMessage"
+              name="birthdayMessage"
+              value="Happy birthday!"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="emailAddr">Email address?</label></td>
+          <td>
+            <input
+              type="email"
+              id="emailAddr"
+              name="emailAddr"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+              placeholder="name@domain.com"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dateToSend">Date to send?</label>
+          </td>
+          <td><input type="date" id="dateToSend" name="dateToSend" /></td>
+        </tr>
+        <tr>
+          <td><label for="messageColor">Message color?</label></td>
+          <td>
+            <input
+              type="color"
+              id="messageColor"
+              name="messageColor"
+              value="#000000"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="numBlinks">Number of blinks?</label></td>
+          <td>
+            <input
+              type="number"
+              id="numBlinks"
+              name="numBlinks"
+              min="0"
+              max="10"
+              value="0"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="musicVolume">Music volume?</label></td>
+          <td>
+            <input
+              type="range"
+              id="musicVolume"
+              min="0"
+              name="musicVolume"
+              max="100"
+              value="10"
+              class="slider"
+            />
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Send Birthday Message</button>
+    </form>
+  </body>
+</html>
