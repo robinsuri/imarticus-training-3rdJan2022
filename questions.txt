@@ -157,7 +157,48 @@ console.log(_____________);
 "You are "+ age
 ---------------------------------
 
+switch(item){
+    case "apple":
+    case "orange":
+       fruits++;
+       break;
+    case "milk":
+        drinks++;
+    case "cheese":
+        dairy++;
+        break;
+    case "beef":
+    case "chicken":
+        meat++;
+        break;
+    default:
+        other++;
+}
+(i) If item is "beef" what variables will be incremented?
+(ii) If item is "milk" what variables are incremented?
+(iii) If item is "Apple" what variable is increments?
 
+-----
+Convert the group of else-if statements into an equivalent
+switch statement.
+
+// Get a number between 0 and 6 representing the day of the week (0 = Sunday, 6 = Saturday)
+let currDay = new Date().getDay();
+
+// Convert into an equivalent switch statement
+if (currDay === 1) {
+   console.log("I love Mondays!");
+}
+else if (currDay === 2 || currDay === 3 || currDay === 4) {
+   console.log("Working hard!");
+}
+else if (currDay === 5) {
+   console.log("TGIF!");
+}
+else {
+   console.log("Time to relax!");
+}
+------
 
 
 

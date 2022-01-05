@@ -109,4 +109,119 @@ Keywords:
 (i) let
 (ii) const
 
-Data types in JAVASCRIPT
+(i)Data types in JAVASCRIPT
+(ii) Arithmetic operators
+(iii) conditionals
+(iv) comparison operators
+(v) logical operators
+
+----
+let age = 6;
+if(age%2==0)
+    console.log("age is even");
+else 
+    console.log("age is odd");
+if(age > 10)
+ console.log("age is greater than 10");
+else 
+  console.log("age is not greater than 10");
+-----
+
+let length = 1;
+lowerCase = "abc";
+upperCase = "ABC";
+if(lowerCase > upperCase)
+    length++;
+Unicode values
+"a" is compared to "A"
+97  is compared 65
+97 > 65
+"a" > "A"
+
+-----------------
+Nested if else
+
+let userAge=18;
+if(userAge<=12)
+    console.log("young");
+else {
+    console.log("age is at least 12");
+    if(userAge >=18)
+       console.log("you are more than 18");
+    else 
+        console.log("you are between 12 and 18");
+    }
+
+    ------------------------
+
+    homeTeam=2;
+visitingTeam=5;
+if(homeTeam > 10 || visitingTeam >0)
+  decision=1;
+else 
+decision=0;
+console.log(decision);
+
+--------------------------------
+Truthy and falsy
+A truthy value is a non-boolean value that evaluates to true
+Ex. if(18)
+
+conditional operator in javascript (ternary operator)
+let name = condition ? expression1 : expression2
+
+let name;
+if(condition)
+    name=expression1
+else
+   name=expression2
+-------------
+score=75;
+console.log(score >=60 ? "passing" : "failing");
+registeredEarly = false;
+age = 20;
+fee = registeredEarly || age <=18? 10:15;
+console.log("fee is "+fee);
+
+----------------
+Switch statements
+These are an alternative to writing multiple if-else statements.
+A switch statement compares an expressions value to several cases
+using the strict equality (===)
+
+switch(expression){
+
+    case value1:
+    // statements
+    break;
+    case value2:
+    break;
+    .
+    .
+    .
+    .
+    default:
+
+}
+
+
+-----
+change=5;
+switch(change){
+    case 1:
+       coin="penny";
+       break;
+    case 5:
+       coin="nickel";
+       break;
+    case 25:
+       coin="quarter";
+       break;
+    default:
+       coin="unknown";
+}
+console.log(coin);
+-----
+
+
+
