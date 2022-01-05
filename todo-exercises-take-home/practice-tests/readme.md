@@ -10,4 +10,3 @@ for proper rendering <br>
 You can download the whole repository, which will include other 
 <br>
 folders too apart from the code that we did use this link <br>
-https://github.com/robinsuri/corporate-training/archive/refs/heads/master.zip
