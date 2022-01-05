@@ -96,7 +96,8 @@ For each of the following what will get highlighted?
 		
 
 -------------------
-span.highlight {
+Explanation: Select only those span tag that have class="highlight"
+span.highlight  {
 
 }
 1.<span> lkasjalksdj </span>
@@ -122,6 +123,7 @@ __{
 }
 
 What will go in the blank _____ ?
+Ans: .base
 ---------------
 
 Cause all the element with the ID special to be displayed
@@ -129,7 +131,7 @@ with the text color red
 __{
     color: red;
 }
-
+#special
 ------------------
 Cause the text background of any div to be chnaged to 
 light blue when the mouse
@@ -139,7 +141,26 @@ __{
     background-color: lightblue;
 
 }
+div:hover
 --------------------
+
+write the code to prompt the user with the question variable and retrieve
+the users age
+question = "How old are you?";
+age = __________
+prompt(question);
+
+-----------------------
+write the code to display "You are X", where X is the value of the age variable.
+age = 21;
+console.log(_____________);
+"You are "+ age
+---------------------------------
+
+
+
+
+
 
 
 

@@ -95,3 +95,18 @@ Background properties
 (ii) favicon
 
 
+-----------------------------------------------------
+JAVASCRIPT
+
+1995  to be used in Netscape navigator browser.
+dynamically respond to user events.
+
+variables
+A variable is a named container that stores a value in memory.
+
+let score = 100;
+Keywords:
+(i) let
+(ii) const
+
+Data types in JAVASCRIPT
