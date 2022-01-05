@@ -84,3 +84,14 @@ color CSS property changes the text color to a specified color value.
 * rgb(0,0,0) is black, rgb(0,0,255) is blue
 * hexadecimal color #000000 is black, #0000FF is blue
 
+Background properties
+* background-color
+* background-image
+* background
+
+----------
+<link> tag  : It links an external resource
+(i) external stylesheets
+(ii) favicon
+
+

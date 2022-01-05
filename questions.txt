@@ -64,6 +64,83 @@ I want to change the font-weight property to bold.
 For all hyperlinks inside a table. <a> tag  
 
 table a {font-weight: bold;}
+--------------------------------------------------
+
+True/False
+(i) An inline styles does not use a selector? 
+(ii) An inline styles uses curly braces? 
+
+--------------------------
+p span {
+    background-color:yellow;
+}
+For each of the following what will get highlighted?
+
+  (i) <p> The <span>text</span> is new</p>
+  (ii) <ol>
+            <li> the 
+               <span> text </span> is highlighted.
+            </li>
+            <li> The text is random </li>
+        </ol>
+        
+ (iii) <p> 
+          <span>text</span>
+          <span><em>text</em>
+          </span>
+        <p>
+        Answer: ?
+  (iv) <span>
+          <p> text </p>
+        </spam>
+		
+
+-------------------
+span.highlight {
+
+}
+1.<span> lkasjalksdj </span>
+2.<span id="highlight"> alksdj </span>
+3.<span class="high">aklsdj</span>
+4.<span class="highlight">alskdja</span>
+
+Which line will be affected by this selector?
+
+----------------------------
+.hidden {
+    background-color: yellow;
+}
+1. Element 2. Class 3. ID 4. Pseudo-class 5. Descendant
+What selector is this?
+
+-------------------------
+Cause all elements with the class name
+base to be displayed as superscript.
+__{
+    vertical-align:super;
+    font-size: smaller;
+}
+
+What will go in the blank _____ ?
+---------------
+
+Cause all the element with the ID special to be displayed
+with the text color red
+__{
+    color: red;
+}
+
+------------------
+Cause the text background of any div to be chnaged to 
+light blue when the mouse
+hovers any part of the div contents.
+
+__{
+    background-color: lightblue;
+
+}
+--------------------
+
 
 
 
