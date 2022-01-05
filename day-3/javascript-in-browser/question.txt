@@ -1,0 +1,27 @@
+1.
+(i) The DOM is created from a document's HTML? True
+(ii) The DOM is accessible via the global object named document? True
+(iii) document.writeln("<div>test</div>") adds a div element to the DOM? True
+
+2.
+True/False
+The action a web browser notices are called even handlers? False
+A web developer must implmenet the code to detect events and call the appropriate handlers? False
+A mouse click causes an event True
+
+3.
+(i)
+function loadedHandler(){
+    let addBtn = document.querySelector("#addBtn");
+    addBtn.addEventListener("click",addNumbers);
+}
+
+function addNumbers(){
+    let num1 = 
+    let num1=1;
+    let num2 = 2;
+return num1+num2;
+}
+what is missing to register the addNumbers function as a click event handler.
+
+(ii)

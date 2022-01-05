@@ -1,0 +1,18 @@
+Javascripts allows web pages to be more interactive.
+Document object model (DOM) is a data structure that represents all parts of 
+an html document.
+The javascript object called document that represents the entire DOM and is created
+from the documents HTML.
+
+<script> tag attribute async - allows the browser to process
+the web page concurrently with loading and processing the javascript
+
+defer - aloows the browser to load the web page concurrently
+with loading the javascript but javascript is not processed until the
+webpage is completely loaded
+
+
+Even drive programming
+An event is an action, usually caused by a user that the browser responds to.
+event handler or event listener
+

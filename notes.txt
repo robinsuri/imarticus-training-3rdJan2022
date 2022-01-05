@@ -294,4 +294,22 @@ let displaySum2 = function(x,y,z){
   console.log(x + y + z);
 }
 
+------------
+let book = {
+title: "bookname",
+published: 2021,
+keywords: ["important", "time"]
+};
+
+book.title
+book["title"]
+book.keywords[0]
+-----
+Javascript is used with HTML
+Is to make the HTML pages more interactive.
+
+The Document Object Model (or DOM) is a data structure
+that represents all parts of an HTML document.
+Javascript object called document that represents
+the entire DOM.
 
