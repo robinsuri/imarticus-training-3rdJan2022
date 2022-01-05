@@ -218,6 +218,26 @@ switch(currday){
 }
 ------
 
+function drawTriangle(row){
+   for(i=1;i<=row;i++){
+      // for each i we have to print * i times
+      line="";
+   for(j=1;j<=i;j++)
+      line+="*";
+   console.log(line);
+}
+}
+------------------
+function arraySum(arr){
+  let sum=0;
+  for(i=0;i<arr.length;i++)
+       sum+=arr[i];
+
+return sum;
+}
+
+------------------
+
 
 
 
