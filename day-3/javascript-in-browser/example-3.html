@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Title</title>
+    <script src="double.js" defer></script>
+
   </head>
   <body>
       <h1> Double the value</h1>
@@ -10,14 +12,5 @@
      
     <input id="button" type="submit"></input><br>
     <label id="output"></label>
-<script>
-    let inputButton = document.getElementById("button");
-    inputButton.addEventListener("click", function(){
-        let value = parseInt(document.getElementById("text").value);
-        value=value*2;
-        document.getElementById("output").textContent=value;
-    });
-   
-</script>
   </body>
 </html>
