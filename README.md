@@ -11,7 +11,7 @@
 
 <li>
 <p> <em>Contain Books on HTML, CSS and Javascript: </em></p>
-https://github.com/robinsuri/corporate-training/tree/master/imarticus-capegemini-web-basics-17th-Nov-2021/useful-material</li>
+https://github.com/robinsuri/web-basics-useful-material</li>
   
   <li>https://developer.chrome.com/docs/devtools/</li>
   </ul>
