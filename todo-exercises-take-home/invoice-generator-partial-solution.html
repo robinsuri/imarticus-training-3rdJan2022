@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+	<style>
+	 body {
+	 text-align:center;
+	 background-color:rgba(26,41,48,1);
+	 color: rgb(255,255,255);
+	 }
+	 #add-item-section{
+	 display:inline-block;
+	 text-align:left;
+	 padding:20px;
+	 margin:20px 0px 20px 0;
+	 
+	 }
+	 input{
+	 display:block;
+	 margin: 14px 0px 14px 0px;
+	 font-size:20px;
+	 color: rgb(255,255,255);
+	 }
+	 label {
+	 	 font-size:18px;
+font-weight:600;
+text-decoration-style: solid;
+color: rgb(255,255,255);
+	 }
+	 button{
+ background-color:rgba(255,216,56,1);
+   border: 1px solid rgb(255,255,255);
+color: rgb(255,255,255);
+font-size:20px;
+font-weight:600;
+	 }
+	 #invoice-div{
+	 display:inline-block;
+	 margin: 20px 0px 20px 0px;
+	 
+	 }
+	 table,tr{
+	 border: 1px solid rgb(255,255,255);
+	 }
+	 td,th{
+	   border: 1px solid rgb(255,255,255);
+	   padding:10px;
+	 }
+	 .first-column{
+	 text-align: left;
+	 }
+	 .center-column{
+	 text-align:center;
+	 }
+	 .last-column{
+	    text-align:right;
+	 }
+	 #generate-invoice{
+	 display:none;
+	 bottom-margin:50px;
+	 
+	 }
+	 #error{
+	   color: rgba(228,64,3);
+	 }
+	</style>
+  </head>
+  <body>
+  <h1>Invoice Generator</h1>
+  <hr>
+  <span id="error"></span>
+  <br>
+  <div id="add-item-section">
+  <label>Item name</label>
+  <input id="item-name" type="text" placeholder="Enter
+  item name">
+  <label>Price</label>
+  <input id="price" type="number" placeholder="Enter price">
+  <label>Discount</label>
+  <input id="discount" type="number" placeholder="Enter discount">
+  <button id="add-item-button">Add Item</button>
+  
+  </div>
+  <hr>
+  <div id="invoice-div">
+  <h2 id="heading">
+  <br>
+  <button id="generate-invoice">Generate Invoice</button>
+  
+  </div>
+  <script>
+  document.getElementById("add-item-button").addEventListener("click", function () {
+  let discount = document.getElementById("discount").value;
+  let error=document.getElementById("error").innerHTML;
+  if(document.getElementById("item-name").value=="")
+    error.innerHTML="Please enter item name";
+
+else if(document.getElementById("price").value=="")
+        error.innerHTML="Please enter price";
+else if(document.getElementById("price").value<0)
+        error.innerHTML="Price should be non negative decimal number";
+else if(document.getElementById("discount").value=="")
+        error.innerHTML="Please enter discount";
+else if(discount<0 || discount>100 || discount!=parseInt(discount))
+    error.innerHTML="Discount should be decimal and in between (1-100)."
+else 
+   error.innerHTML="";
+   document.getElementById("heading").text="All items";
+   
+  });
+  </script>
+  </body>
+</html>
